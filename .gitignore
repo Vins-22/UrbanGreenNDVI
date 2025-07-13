@@ -1,0 +1,26 @@
+# Ignore Python cache and temp folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment or system files
+.DS_Store
+.env
+*.env
+*.log
+
+# Ignore intermediate NDVI output
+data/ndvi.tif
+
+# Ignore outputs (optional if reproducible)
+outputs/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore large Sentinel-2 input files
+data/*.tif

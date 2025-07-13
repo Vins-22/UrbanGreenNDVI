@@ -1,0 +1,13 @@
+name: greenspace
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - geopandas
+  - rasterio
+  - matplotlib
+  - numpy
+  - shapely
+  - fiona
+  - pyproj
+  - jupyterlab  # optional, remove if not using notebooks
