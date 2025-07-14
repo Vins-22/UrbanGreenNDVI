@@ -1,6 +1,5 @@
 # 🌿 Urban NDVI Analysis with Python & GeoPandas
-
-This project analyzes urban green space in Delhi by computing the **Normalized Difference Vegetation Index (NDVI)** from Sentinel-2 satellite imagery and performing **zonal statistics** to calculate the average NDVI for each urban ward.
+ A Python-based project that reads and processes Sentinel-2 imagery to compute **Normalizd Deifference Vegetation Index (NDVI)**. It overlays ward boundaries to perform **zonal statistics** and extract average NDVI values per ward. The workflow uses rasterio for raster handling, geopandas for vector data, and numpy for array operations.
 
 ---
 
