@@ -1,4 +1,4 @@
-# 🌿 Urban Green Space Analysis Using NDVI and Zonal Statistics
+# 🌿 Urban NDVI Analysis with Python & GeoPandas
 
 This project analyzes urban green space in Delhi by computing the **Normalized Difference Vegetation Index (NDVI)** from Sentinel-2 satellite imagery and performing **zonal statistics** to calculate the average NDVI for each urban ward.
 
