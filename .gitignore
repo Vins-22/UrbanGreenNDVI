@@ -1,27 +1,27 @@
-# Ignore Python cache and temp folders
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore environment or system files
-.DS_Store
-.env
-*.env
-*.log
-
-# Ignore intermediate and large raster files
+# Ignore all .tif files and related auxiliary files
 *.tif
 *.tif.*
 *.ovr
 *.tfw
 *.aux.xml
 
-# Ignore Jupyter notebook checkpoints
+# Don't ignore .zip files (we want to keep them)
+!*.zip
+
+# Ignore everything inside data/ folder
+data/*
+
+# But don't ignore zip files inside data/
+!data/*.zip
+
+# Standard ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+*.env
+*.log
 .ipynb_checkpoints/
-
-# Ignore outputs (optional if reproducible)
-outputs/
-
-# Ignore VSCode settings (optional)
 .vscode/
