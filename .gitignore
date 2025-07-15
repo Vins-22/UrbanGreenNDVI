@@ -10,17 +10,18 @@ __pycache__/
 *.env
 *.log
 
-# Ignore intermediate NDVI output
-data/ndvi.tif
-
-# Ignore outputs (optional if reproducible)
-outputs/
+# Ignore intermediate and large raster files
+*.tif
+*.tif.*
+*.ovr
+*.tfw
+*.aux.xml
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
+# Ignore outputs (optional if reproducible)
+outputs/
+
 # Ignore VSCode settings (optional)
 .vscode/
-
-# Ignore large Sentinel-2 input files
-data/*.tif
