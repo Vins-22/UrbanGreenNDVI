@@ -1,5 +1,5 @@
 # 🌿 Urban NDVI Analysis with Python & GeoPandas
- A Python-based project that reads and processes Sentinel-2 imagery to compute **Normalizd Deifference Vegetation Index (NDVI)**. It overlays ward boundaries to perform **zonal statistics** and extract average NDVI values per ward. The workflow uses rasterio for raster handling, geopandas for vector data, and numpy for array operations.
+ A Python-based project that reads and processes Sentinel-2 imagery to compute **Normalizd Difference Vegetation Index (NDVI)**. It overlays ward boundaries to perform **zonal statistics** and extract average NDVI values per ward. The workflow uses rasterio for raster handling, geopandas for vector data, and numpy for array operations.
 
 ---
 
